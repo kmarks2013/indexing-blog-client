@@ -12,6 +12,9 @@ function App() {
       <form>
         <label >Username: </label>
         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+        <br/>
+        <label >Password: </label>
+        <input type="text" value={password} onChange={(e) => setPassword(e.target.value)} />
       </form>
     </div>
   );
