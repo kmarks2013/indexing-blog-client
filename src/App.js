@@ -4,7 +4,9 @@ function App() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
 
-
+  const handleSubmit = () =>{
+      console.log('username:', username, 'password:', password)
+  }
 
   return (
     <div className="App">
