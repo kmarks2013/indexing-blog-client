@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="App">
+      {console.log(username)}
       <form>
         <label >Username: </label>
         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
