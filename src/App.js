@@ -15,6 +15,8 @@ function App() {
         <br/>
         <label >Password: </label>
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <br/>
+        <input type='submit' />
       </form>
     </div>
   );
