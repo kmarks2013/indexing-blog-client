@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <form>
         <label >Username: </label>
+        <input type="text" />
       </form>
     </div>
   );
